@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    container_name: skill-gallery-app
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - DATA_DIR=/app/data
+      - IMAGES_DIR=/app/public/images
+    ports:
+      - "3000:3000"
+    volumes:
+      # 持久化数据（skills.json, likes.json）
+      - ./volumes/data:/app/data
+      # 持久化图片（API 上传的新图片）
+      - ./volumes/images:/app/public/images
+      # 持久化 skill 下载文件
+      - ./volumes/skills:/app/public/skills

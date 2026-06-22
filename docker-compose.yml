@@ -1,0 +1,42 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    container_name: skill-gallery-app
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - DATA_DIR=/app/data
+      - IMAGES_DIR=/app/public/images
+    expose:
+      - "3000"
+    volumes:
+      # 持久化数据（skills.json, likes.json）
+      - gallery-data:/app/data
+      # 持久化图片（API 上传的新图片）
+      - gallery-images:/app/public/images
+      # 持久化 skill 下载文件
+      - gallery-skills:/app/public/skills
+
+  nginx:
+    image: nginx:alpine
+    container_name: skill-gallery-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/certs:/etc/nginx/certs:ro
+      # 共享 app 容器的图片和 skill 文件
+      - gallery-images:/usr/share/nginx/images:ro
+      - gallery-skills:/usr/share/nginx/skills:ro
+    depends_on:
+      - app
+
+volumes:
+  gallery-data:
+  gallery-images:
+  gallery-skills:

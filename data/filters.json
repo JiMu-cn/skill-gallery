@@ -1,0 +1,188 @@
+{
+  "categories": [
+    {
+      "value": "All",
+      "label": "全部"
+    },
+    {
+      "value": "UI & Interfaces",
+      "label": "UI 与界面"
+    },
+    {
+      "value": "Charts & Infographics",
+      "label": "图表与信息可视化"
+    },
+    {
+      "value": "Posters & Typography",
+      "label": "海报与排版"
+    },
+    {
+      "value": "Products & E-commerce",
+      "label": "商品与电商"
+    },
+    {
+      "value": "Brand & Logos",
+      "label": "品牌与标志"
+    },
+    {
+      "value": "Architecture & Spaces",
+      "label": "建筑与空间"
+    },
+    {
+      "value": "Photography & Realism",
+      "label": "摄影与写实"
+    },
+    {
+      "value": "Illustration & Art",
+      "label": "插画与艺术"
+    },
+    {
+      "value": "Characters & People",
+      "label": "人物与角色"
+    },
+    {
+      "value": "Scenes & Storytelling",
+      "label": "场景与叙事"
+    },
+    {
+      "value": "History & Classical Themes",
+      "label": "历史与古风题材"
+    },
+    {
+      "value": "Documents & Publishing",
+      "label": "文档与出版物"
+    },
+    {
+      "value": "Other Use Cases",
+      "label": "其他应用场景"
+    }
+  ],
+  "styles": [
+    {
+      "value": "All",
+      "label": "全部"
+    },
+    {
+      "value": "3D",
+      "label": "3D"
+    },
+    {
+      "value": "Architecture",
+      "label": "建筑"
+    },
+    {
+      "value": "Brand",
+      "label": "品牌"
+    },
+    {
+      "value": "Character",
+      "label": "角色"
+    },
+    {
+      "value": "Characters",
+      "label": "人物"
+    },
+    {
+      "value": "Charts",
+      "label": "图表"
+    },
+    {
+      "value": "Classical",
+      "label": "古典"
+    },
+    {
+      "value": "Documents",
+      "label": "文档"
+    },
+    {
+      "value": "History",
+      "label": "历史"
+    },
+    {
+      "value": "Illustration",
+      "label": "插画"
+    },
+    {
+      "value": "Infographic",
+      "label": "信息图"
+    },
+    {
+      "value": "Other Use Cases",
+      "label": "其他应用场景"
+    },
+    {
+      "value": "Photography",
+      "label": "摄影"
+    },
+    {
+      "value": "Poster",
+      "label": "海报"
+    },
+    {
+      "value": "Product",
+      "label": "商品"
+    },
+    {
+      "value": "Products",
+      "label": "商品"
+    },
+    {
+      "value": "Realistic",
+      "label": "写实"
+    },
+    {
+      "value": "Scenes",
+      "label": "场景"
+    },
+    {
+      "value": "UI",
+      "label": "界面"
+    }
+  ],
+  "scenes": [
+    {
+      "value": "All",
+      "label": "全部"
+    },
+    {
+      "value": "Creative",
+      "label": "创意"
+    },
+    {
+      "value": "Tech",
+      "label": "科技"
+    },
+    {
+      "value": "Commerce",
+      "label": "商业"
+    },
+    {
+      "value": "Education",
+      "label": "教育"
+    },
+    {
+      "value": "Social",
+      "label": "社媒"
+    },
+    {
+      "value": "Fashion",
+      "label": "时尚"
+    },
+    {
+      "value": "Food",
+      "label": "食品饮品"
+    },
+    {
+      "value": "Travel",
+      "label": "旅行"
+    },
+    {
+      "value": "Story",
+      "label": "叙事"
+    },
+    {
+      "value": "History",
+      "label": "历史"
+    }
+  ]
+}
