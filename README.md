@@ -7,6 +7,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?logo=tailwindcss)](https://tailwindcss.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript)](https://www.typescriptlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![官网](https://img.shields.io/badge/官网-jimu.chat-blue)](https://jimu.chat)
 
 Skill Gallery 是一个开源的 **AI 生图风格提示词展示站**，把分散的 GPT Image 风格案例整理成可视化卡片库，支持按 **分类 / 风格 / 场景** 三维度筛选，关键词秒级搜索，点击即可下载对应的 Skill 提示词包。
 
