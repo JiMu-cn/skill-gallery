@@ -221,3 +221,9 @@ curl -X POST https://your-domain.com/api/admin/add-case \
 
 - [Next.js](https://nextjs.org) · [Tailwind CSS](https://tailwindcss.com) · [Motion](https://motion.dev)
 - 提示词风格案例参考自社区开源数据集
+
+## 🏢 关于我们
+
+- 官网：[积木科技](https://jimu.chat)
+- GitHub：[@JiMu-cn](https://github.com/JiMu-cn)
+- 反馈邮箱：[admin@jimu.chat](mailto:admin@jimu.chat)
