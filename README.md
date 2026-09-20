@@ -227,4 +227,3 @@ curl -X POST https://your-domain.com/api/admin/add-case \
 
 - 官网：[积木科技](https://jimu.chat)
 - GitHub：[@JiMu-cn](https://github.com/JiMu-cn)
-- 反馈邮箱：[admin@jimu.chat](mailto:admin@jimu.chat)
